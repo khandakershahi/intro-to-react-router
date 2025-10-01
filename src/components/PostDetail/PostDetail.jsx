@@ -1,13 +1,15 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigate } from 'react-router';
 
 const PostDetail = () => {
     const post = useLoaderData();
+    const navigate = useNavigate();
 
     return (
         <div>
             <h2 className='text-2xl font-bold'>{post.title}</h2>
             <p>{post.body}</p>
+            <button onClick={() => navigate(-1)}>Go Back</button>
         </div>
     );
 };
