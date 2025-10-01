@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-blue-300 h-30 max-w-[1200px] mx-auto flex justify-center flex-col items-center'>
-            <p>
+            <p className='flex flex-col'>
                 <small>Thank you for vising our website</small>
                 <a href="/privacy">Privacy Policy</a>
                 <a href="/terms">Terms</a>

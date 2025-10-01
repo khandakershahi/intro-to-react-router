@@ -8,7 +8,7 @@ const Root = () => {
     return (
         <div>
             <Header></Header>
-            <div className='h-[400px] max-w-[1200px] mx-auto flex justify-center gap-30 items-center' >
+            <div className=' max-w-[1200px] mx-auto flex justify-center gap-30 items-center' >
                 <Sidebar></Sidebar>
                 <Outlet></Outlet>
             </div>
